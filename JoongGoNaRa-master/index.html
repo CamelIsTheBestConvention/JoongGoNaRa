@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>중고나라</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!--헤더-->
+    <header id="header">
+      <!--로고, 검색창-->
+      <div id="first_header">
+        <div id="logo"></div>
+        <div id="search">
+          <input type="text" placeholder="검색어를 입력해주세요" />
+          <button></button>
+        </div>
+        <div id="info">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+
+      <!--카테고리 공지사항-->
+      <div id="second_header">
+        <div id="categoryMenu">
+          <div></div>
+          <p>카테고리</p>
+        </div>
+        <div class="hideMenu">
+          <ul>
+            <li class="hidehide">
+              <span class="hotItem_category">수입명품</span>
+              <span class="hideMenu_arrow">></span>
+            </li>
+            <li class="hidehide">
+              <span class="hotItem_category">패션의류</span>
+              <span class="hideMenu_arrow">></span>
+            </li>
+            <li class="hidehide">
+              <span class="hotItem_category">패션잡화</span>
+              <span class="hideMenu_arrow">></span>
+            </li>
+            <li class="hidehide">
+              <span class="hotItem_category">뷰티</span>
+              <span class="hideMenu_arrow">></span>
+            </li>
+            <li class="hidehide">
+              <span class="hotItem_category">출산/유아동</span>
+              <span class="hideMenu_arrow">></span>
+            </li>
+            <li class="hidehide">
+              <span class="hotItem_category">모바일/태블릿</span>
+              <span class="hideMenu_arrow">></span>
+            </li>
+            <li class="hidehide">
+              <span class="hotItem_category">가전제품</span>
+              <span class="hideMenu_arrow">></span>
+            </li>
+            <li class="hidehide">
+              <span class="hotItem_category">노트북/데스크탑</span>
+              <span class="hideMenu_arrow">></span>
+            </li>
+            <li class="hidehide">
+              <span class="hotItem_category">카메라/캠코더</span>
+              <span class="hideMenu_arrow">></span>
+            </li>
+            <li class="hidehide">
+              <span class="hotItem_category">가구/인테리어</span>
+              <span class="hideMenu_arrow">></span>
+            </li>
+          </ul>
+          <ul id="hica1" class="hica">
+            <li>여성신발</li>
+            <li>남성신발</li>
+            <li>가방/핸드백</li>
+            <li>지갑/벨트</li>
+            <li>여성의류</li>
+            <img id="absolute1" src="./hotitemimg/dress1.jpg" alt="" />
+            <img id="absolute2" src="./hotitemimg/dress2.jpg" alt="" />
+            <img id="absolute3" src="./hotitemimg/dress3.jpg" alt="" />
+            <img id="absolute4" src="./hotitemimg/dress4.jpg" alt="" />
+            <img id="absolute5" src="./img/중고광고.jpg" alt="" />
+          </ul>
+          <ul id="hica2" class="hica">
+            <li>여성의류</li>
+            <li>남성의류</li>
+            <li>교육/체육복/단복</li>
+            <img id="absolute1" src="./hotitemimg/dress2.jpg" alt="" />
+            <img id="absolute2" src="./hotitemimg/dress4.jpg" alt="" />
+            <img id="absolute3" src="./hotitemimg/dress5.jpg" alt="" />
+            <img id="absolute4" src="./hotitemimg/dress6.jpg" alt="" />
+            <img id="absolute5" src="./img/중고광고.jpg" alt="" />
+          </ul>
+          <ul id="hica3" class="hica">
+            <li>운동화</li>
+            <li>여성신발</li>
+            <li>남성신발</li>
+            <li>가방/핸드백</li>
+            <li>지갑/벨트</li>
+            <img id="absolute1" src="./hotitemimg/shoes1.jpg" alt="" />
+            <img id="absolute2" src="./hotitemimg/shoes2.jpg" alt="" />
+            <img id="absolute3" src="./hotitemimg/shoes3.jpg" alt="" />
+            <img id="absolute4" src="./hotitemimg/shoes4.jpg" alt="" />
+            <img id="absolute5" src="./img/중고광고.jpg" alt="" />
+          </ul>
+          <ul id="hica4" class="hica">
+            <li>스킨케어</li>
+            <li>메이크업</li>
+            <li>팩/클렌징/필링</li>
+            <li>헤어/바디</li>
+            <li>향수</li>
+            <img id="absolute1" src="./hotitemimg/beauty1.jpg" alt="" />
+            <img id="absolute2" src="./hotitemimg/beauty2.jpg" alt="" />
+            <img id="absolute3" src="./hotitemimg/beauty3.jpg" alt="" />
+            <img id="absolute4" src="./hotitemimg/beauty4.jpg" alt="" />
+            <img id="absolute5" src="./img/중고광고.jpg" alt="" />
+          </ul>
+          <ul id="hica5" class="hica">
+            <li>출산/육아용품</li>
+            <li>유아동안전/실내용품</li>
+            <li>유아동의류</li>
+            <li>유아동잡화</li>
+            <li>유아동가구</li>
+            <img id="absolute1" src="./hotitemimg/kids1.jpg" alt="" />
+            <img id="absolute2" src="./hotitemimg/kids2.jpg" alt="" />
+            <img id="absolute3" src="./hotitemimg/kids3.jpg" alt="" />
+            <img id="absolute4" src="./hotitemimg/kids4.jpg" alt="" />
+            <img id="absolute5" src="./img/중고광고.jpg" alt="" />
+          </ul>
+          </ul>
+          <ul id="hica6" class="hica">
+            <li>스마트폰</li>
+            <li>태블릿PC</li>
+            <li>스마트워치/밴드</li>
+            <li>일반/피쳐폰</li>
+            <li>케이스/거치대/보호필름</li>
+            <img id="absolute1" src="./hotitemimg/mobile1.jpg" alt="" />
+            <img id="absolute2" src="./hotitemimg/mobile2.jpg" alt="" />
+            <img id="absolute3" src="./hotitemimg/mobile3.jpg" alt="" />
+            <img id="absolute4" src="./hotitemimg/mobile4.jpg" alt="" />
+            <img id="absolute5" src="./img/중고광고.jpg" alt="" />
+          </ul>
+          <ul id="hica7" class="hica">
+            <li>냉장고</li>
+            <li>TV</li>
+            <li>세탁기/건조기</li>
+            <li>주방가전</li>
+            <li>스마트홈</li>
+            <img id="absolute1" src="./hotitemimg/elec1.jpg" alt="" />
+            <img id="absolute2" src="./hotitemimg/elec2.jpg" alt="" />
+            <img id="absolute3" src="./hotitemimg/elec3.jpg" alt="" />
+            <img id="absolute4" src="./hotitemimg/elec4.jpg" alt="" />
+            <img id="absolute5" src="./img/중고광고.jpg" alt="" />
+          </ul>
+          <ul id="hica8" class="hica">
+            <li>노트북/넷북</li>
+            <li>데스크탑/본체</li>
+            <li>모니터</li>
+            <li>CPU/메인보드</li>
+            <li>HDD/SSD/ODD</li>
+            <img id="absolute1" src="./hotitemimg/pc1.jpg" alt="" />
+            <img id="absolute2" src="./hotitemimg/pc2.jpg" alt="" />
+            <img id="absolute3" src="./hotitemimg/pc3.jpg" alt="" />
+            <img id="absolute4" src="./hotitemimg/pc4.jpg" alt="" />
+            <img id="absolute5" src="./img/중고광고.jpg" alt="" />
+          </ul>
+          <ul id="hica9" class="hica">
+            <li>DSLR</li>
+            <li>미러리스</li>
+            <li>디지털카메라</li>
+            <li>필름/즉석카메라</li>
+            <li>캠코더/액션캠</li>
+            <img id="absolute1" src="./hotitemimg/camera1.jpg" alt="" />
+            <img id="absolute2" src="./hotitemimg/camera2.jpg" alt="" />
+            <img id="absolute3" src="./hotitemimg/camera3.jpg" alt="" />
+            <img id="absolute4" src="./hotitemimg/camera4.jpg" alt="" />
+            <img id="absolute5" src="./img/중고광고.jpg" alt="" />
+          </ul>
+          <ul id="hica10" class="hica">
+            <li>침실가구</li>
+            <li>거실가구</li>
+            <li>주방가구</li>
+            <li>수납/선반/공간박스</li>
+            <li>학생/서재/사무용가구</li>
+            <img id="absolute1" src="./hotitemimg/furniture1.jpg" alt="" />
+            <img id="absolute2" src="./hotitemimg/furniture2.jpg" alt="" />
+            <img id="absolute3" src="./hotitemimg/furniture3.jpg" alt="" />
+            <img id="absolute4" src="./hotitemimg/furniture4.jpg" alt="" />
+            <img id="absolute5" src="./img/중고광고.jpg" alt="" />
+          </ul>
+        </div>
+        <div id="menuBox">
+          <ul>
+            <li>공지사항</li>
+            <li>시세조회</li>
+            <li>이벤트</li>
+            <li>고객센터</li>
+            <li>사기피해 사례 조회</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!--광고배너-->
+    <div id="ddBanner">
+      <div class="bannerImg"></div>
+      <div class="bannerImg"></div>
+      <div class="bannerImg"></div>
+      <div class="bannerImg"></div>
+      <div class="bannerImg"></div>
+    </div>
+
+    <!--
+      메인 바디
+      구역 크게 4개로 나눔
+      1 - 실시간 물품
+      2 - 근처물품, 급쳐합니다
+      3 - 실시간 HOT 물품
+      4 - 사고팔고 게시판
+    -->
+
+    <div id="main_body">
+      <!-- 실시간 물품 구역 -->
+      <div id="recentItemWrap">
+        <div id="recentTitle">
+          <h2>관심 카테고리 최신상품👀</h2>
+          <p>+ 설정하기</p>
+        </div>
+        <div id="recentTag">
+          <p>전체</p>
+          <p>헬스용품</p>
+          <p>의류</p>
+          <p>자전거</p>
+          <p>중고폰</p>
+          <p>무료나눔</p>
+          <p>컴퓨터</p>
+          <p>인테리어</p>
+        </div>
+        <div id="recentItem">
+          <div id="recentItemPrevBtn"></div>
+          <div id="recentItemBoxBox">
+            <div id="recentItemBox">
+              <ul>
+                <li class="recentItems">
+                  <section>
+                    <div><img src="./hotitemimg/Luxury1.jpg" alt="" /></div>
+                    <div><p>루이까또즈 반지갑</p></div>
+                    <div>33,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/dress1.jpg" alt="" /></div>
+                    <div><p>쿨맥스 여름정장자켓105</p></div>
+                    <div>39,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/shoes1.jpg" alt="" /></div>
+                    <div><p>웨딩슈즈</p></div>
+                    <div>25,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/beauty1.jpg" alt="" /></div>
+                    <div><p>메디큐브 트리플 콜라겐 토너</p></div>
+                    <div>15,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/kids1.jpg" alt="" /></div>
+                    <div><p>(3Y)버버리 키즈 여아 멜빵 청치마</p></div>
+                    <div>55,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/mobile1.jpg" alt="" /></div>
+                    <div><p>아이패드9세대256GB 애플펜슬1세대 풀박</p></div>
+                    <div>530,000원</div>
+                  </section>
+                </li>
+                <li class="recentItems">
+                  <section>
+                    <div><img src="./hotitemimg/Luxury2.jpg" alt="" /></div>
+                    <div><p>보태가베네타 장지갑</p></div>
+                    <div>350,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/Luxury3.jpg" alt="" /></div>
+                    <div><p>[이태리정품]마인드마스터안경</p></div>
+                    <div>39,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/Luxury4.jpg" alt="" /></div>
+                    <div><p>루이까또즈 명함 카드 지갑</p></div>
+                    <div>20,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/Luxury5.jpg" alt="" /></div>
+                    <div><p>프라다 백팩(정품)</p></div>
+                    <div>200,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/dress2.jpg" alt="" /></div>
+                    <div><p>mastina tokyo 선글라스</p></div>
+                    <div>33,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/dress3.jpg" alt="" /></div>
+                    <div><p>디키즈 더블니</p></div>
+                    <div>60,000원</div>
+                  </section>
+                </li>
+                <li class="recentItems">
+                  <section>
+                    <div><img src="./hotitemimg/dress4.jpg" alt="" /></div>
+                    <div><p>인디안 쿨맥스 정장자켓</p></div>
+                    <div>35,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/dress5.jpg" alt="" /></div>
+                    <div><p>스톤아일랜드 남성 와펜 포켓 카고 펜츠</p></div>
+                    <div>39,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/dress6.jpg" alt="" /></div>
+                    <div><p>랑베르시오 플라워 싱글코트</p></div>
+                    <div>125,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/shoes4.jpg" alt="" /></div>
+                    <div><p>척테일러 1970s 스웨이드 하이러쉬블루</p></div>
+                    <div>50,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/shoes5.jpg" alt="" /></div>
+                    <div><p>휠라 디스럽터2 여성 운동화</p></div>
+                    <div>25,000원</div>
+                  </section>
+                  <section>
+                    <div><img src="./hotitemimg/shoes6.jpg" alt="" /></div>
+                    <div><p>미소페 스니커즈</p></div>
+                    <div>35,000원</div>
+                  </section>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="recentItemNextBtn"></div>
+        </div>
+      </div>
+
+      <!-- 근처 물품   급쳐합니다 구역 -->
+      <div id="around_sale_box">
+        <!-- 근처 물품 -->
+        <div id="around">
+          <div id="around_title_box">
+            <h2 id="around_title">우리동네 근처 물품👀</h2>
+            <div id="around_add">더보기+</div>
+          </div>
+          <div id="around_contents">
+            <div id="aroundPrevBtn"></div>
+            <div id="aroundImg"></div>
+            <ul>
+              <li>와이셔츠</li>
+              <li>14,000원</li>
+              <li><button>채팅하기</button></li>
+            </ul>
+            <div id="aroundNextBtn"></div>
+          </div>
+        </div>
+
+        <!-- 급쳐합니다 -->
+        <div id="around">
+          <div id="around_title_box">
+            <h2 id="around_title">급처합니다🙏</h2>
+            <div id="around_add">더보기+</div>
+          </div>
+          <div id="around_contents">
+            <div id="aroundPrevBtn"></div>
+            <div id="saleImg"></div>
+            <ul>
+              <li>자전거</li>
+              <li>50,000</li>
+              <li><button>채팅하기</button></li>
+            </ul>
+            <div id="aroundNextBtn"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 실시간 Hot 아이템 구역 -->
+      <div id="hotItem">
+        <div id="hotItem_leftBox">
+          <div id="hotItem_title"><h2>실시간 Hot 아이템</h2></div>
+          <div id="hotItem_rank">
+            <ul id="hotItem_slide">
+              <li class="hotItem_hide">
+                <span class="hotItem_num">1</span>
+                <span class="hotItem_category">수입명품</span>
+              </li>
+              <li class="hotItem_hide">
+                <span class="hotItem_num">2</span>
+                <span class="hotItem_category">패션의류</span>
+              </li>
+              <li class="hotItem_hide">
+                <span class="hotItem_num">3</span>
+                <span class="hotItem_category">패션잡화</span>
+              </li>
+              <li class="hotItem_hide">
+                <span class="hotItem_num">4</span>
+                <span class="hotItem_category">뷰티</span>
+              </li>
+              <li class="hotItem_hide">
+                <span class="hotItem_num">5</span>
+                <span class="hotItem_category">출산/유아동</span>
+              </li>
+              <li class="hotItem_hide">
+                <span class="hotItem_num">6</span>
+                <span class="hotItem_category">모바일/태블릿</span>
+              </li>
+              <li class="hotItem_hide">
+                <span class="hotItem_num">7</span>
+                <span class="hotItem_category">가전제품</span>
+              </li>
+              <li class="hotItem_hide">
+                <span class="hotItem_num">8</span>
+                <span class="hotItem_category">노트북/데스크탑</span>
+              </li>
+              <li class="hotItem_hide">
+                <span class="hotItem_num">9</span>
+                <span class="hotItem_category">카메라/캠코더</span>
+              </li>
+              <li class="hotItem_hide">
+                <span class="hotItem_num">10</span>
+                <span class="hotItem_category">가구/인테리어</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="hotItem_right">
+          <div id="hotItem_rightBox1" class="hotItem_rightBox">
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/Luxury1.jpg" alt="" /></div>
+              <div><p>루이까또즈 반지갑</p></div>
+              <div>33,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/Luxury2.jpg" alt="" /></div>
+              <div>보태가베네타 장지갑</div>
+              <div>350,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/Luxury3.jpg" alt="" /></div>
+              <div>[이태리정품]마인드마스터안경</div>
+              <div>39,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/Luxury4.jpg" alt="" /></div>
+              <div>루이까또즈 명함 카드 지갑</div>
+              <div>20,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/Luxury5.jpg" alt="" /></div>
+              <div>프라다 백팩(정품)</div>
+              <div>200,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/Luxury6.jpg" alt="" /></div>
+              <div>mastina tokyo 선글라스</div>
+              <div>33,000원</div>
+            </div>
+          </div>
+
+          <div id="hotItem_rightBox2" class="hotItem_rightBox">
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/dress1.jpg" alt="" /></div>
+              <div><p>쿨맥스 여름정장자켓105</p></div>
+              <div>39,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/dress2.jpg" alt="" /></div>
+              <div>듀엘 스판 반바지</div>
+              <div>20,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/dress3.jpg" alt="" /></div>
+              <div>디키즈 더블니</div>
+              <div>60,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/dress4.jpg" alt="" /></div>
+              <div>인디안 쿨맥스 정장자켓</div>
+              <div>35,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/dress5.jpg" alt="" /></div>
+              <div>스톤아일랜드 남성 와펜 포켓 카고 펜츠</div>
+              <div>200,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/dress6.jpg" alt="" /></div>
+              <div>랑베르시오 플라워 싱글코트</div>
+              <div>125,000원</div>
+            </div>
+          </div>
+
+          <div id="hotItem_rightBox3" class="hotItem_rightBox">
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/shoes1.jpg" /></div>
+              <div><p>웨딩슈즈</p></div>
+              <div>25,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/shoes2.jpg" /></div>
+              <div><p>나이키x오프화이트 덩크로우파인그린</p></div>
+              <div>1,300,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/shoes3.jpg" /></div>
+              <div><p>아디다스 슈퍼스타 80s 디럭스</p></div>
+              <div>30,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/shoes4.jpg" /></div>
+              <div><p>척테일러 1970s 스웨이드 하이러쉬블루</p></div>
+              <div>50,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/shoes5.jpg" /></div>
+              <div><p>휠라 디스럽터2 여성 운동화</p></div>
+              <div>25,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/shoes6.jpg" /></div>
+              <div><p>미소페 스니커즈</p></div>
+              <div>35,000원</div>
+            </div>
+          </div>
+
+          <div id="hotItem_rightBox4" class="hotItem_rightBox">
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/beauty1.jpg" /></div>
+              <div><p>메디큐브 트리플 콜라겐 토너</p></div>
+              <div>15,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/beauty2.jpg" /></div>
+              <div><p>메디큐브 바이오 더마 어린 콜라겐</p></div>
+              <div>20,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/beauty3.jpg" /></div>
+              <div><p>어반디케이 립스틱 LOVE DRUNK 새상품</p></div>
+              <div>20,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/beauty4.jpg" /></div>
+              <div><p>비플레인 선크림</p></div>
+              <div>10,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/beauty5.jpg" /></div>
+              <div><p>자작나무 수분선크림</p></div>
+              <div>9,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/beauty6.jpg" /></div>
+              <div><p>에스쁘아 비글로우 파운데이션 21호</p></div>
+              <div>16,000원</div>
+            </div>
+          </div>
+
+          <div id="hotItem_rightBox5" class="hotItem_rightBox">
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/kids1.jpg" alt="" /></div>
+              <div><p>(3Y)버버리 키즈 여아 멜빵 청치마</p></div>
+              <div>55,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/kids2.jpg" alt="" /></div>
+              <div>마이리틀타이거 트램폴린</div>
+              <div>50,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/kids3.jpg" alt="" /></div>
+              <div>레고 마스미션 MARS MISSION 7644 초음녹여객</div>
+              <div>140,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/kids4.jpg" alt="" /></div>
+              <div>귀여운 돗자리 (2~3인용) 새상품</div>
+              <div>3,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/kids5.jpg" alt="" /></div>
+              <div>블랙야크 바람막이 12세</div>
+              <div>13,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/kids6.jpg" alt="" /></div>
+              <div>아디다스 스판 반팔티 11세</div>
+              <div>10,000원</div>
+            </div>
+          </div>
+
+          <div id="hotItem_rightBox6" class="hotItem_rightBox">
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/mobile1.jpg" alt="" /></div>
+              <div><p>아이패드9세대256GB 애플펜슬1세데 풀박</p></div>
+              <div>530,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/mobile2.jpg" alt="" /></div>
+              <div>CtoC 초고속충전케이블 4개 다 새거구요.택포구요</div>
+              <div>10,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/mobile3.jpg" alt="" /></div>
+              <div>S10.2지갑케이스 2개. 고속충전케이블 2m롱케이블</div>
+              <div>9,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/mobile4.jpg" alt="" /></div>
+              <div>S8.케이스.새것.지갑.범퍼.엣지필름.케이블등등</div>
+              <div>10,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/mobile5.jpg" alt="" /></div>
+              <div>
+                노트8.범퍼케이스2개.하드케이스.젤리케이스.고속충전케이블
+              </div>
+              <div>10,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/mobile6.jpg" alt="" /></div>
+              <div>아이폰 13미니 2일 사용한 새 폰 팝니다</div>
+              <div>800,000원</div>
+            </div>
+          </div>
+
+          <div id="hotItem_rightBox7" class="hotItem_rightBox">
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/elec1.jpg" alt="" /></div>
+              <div><p>SANSUI앰프(AU-a507MRV)</p></div>
+              <div>450,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/dress2.jpg" alt="" /></div>
+              <div>테크닉스(SL-1500MKII) 턴테이블</div>
+              <div>490,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/elec3.jpg" alt="" /></div>
+              <div>Technics (SL-1200MK3D)턴테이블</div>
+              <div>750,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/elec4.jpg" alt="" /></div>
+              <div>(2개월 사용) 에어팟 2세대 양쪽 왼쪽유닛.오른쪽유닛</div>
+              <div>35,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/elec5.jpg" alt="" /></div>
+              <div>LG 이동식 에어컨 2021년형 (S급) 급처</div>
+              <div>560,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/elec6.jpg" alt="" /></div>
+              <div>전기그리들</div>
+              <div>380,000원</div>
+            </div>
+          </div>
+
+          <div id="hotItem_rightBox8" class="hotItem_rightBox">
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/pc1.jpg" alt="" /></div>
+              <div><p>라이젠 5600x + RTX3060.3060Ti 컴퓨터</p></div>
+              <div>1,180,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/pc2.jpg" alt="" /></div>
+              <div>WD red pro 10테라 5개 개당 25만</div>
+              <div>250,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/pc3.jpg" alt="" /></div>
+              <div>hp노트북 a0050tx i7 16g rtx2060</div>
+              <div>990,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/pc4.jpg" alt="" /></div>
+              <div>운전에 소질없는 사람이 파는 로지텍G29+쉬프트+거치대</div>
+              <div>300,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/pc5.jpg" alt="" /></div>
+              <div>제닉스 titan gv air wireless</div>
+              <div>33,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/pc6.jpg" alt="" /></div>
+              <div>갤럭시 북플렉스2 13.3인치</div>
+              <div>999,000원</div>
+            </div>
+          </div>
+
+          <div id="hotItem_rightBox9" class="hotItem_rightBox">
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/camera1.jpg" /></div>
+              <div><p>매빅미니1 플라이모어 팝니다</p></div>
+              <div>370,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/camera2.jpg" /></div>
+              <div><p>엘지 비디오카메라팝니다</p></div>
+              <div>100,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/camera3.jpg" /></div>
+              <div><p>후지필름x100v 블랙 새상품</p></div>
+              <div>1,300,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/camera4.jpg" /></div>
+              <div><p>맨프로토 스피디 30 카메라가방</p></div>
+              <div>40,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/camera5.jpg" /></div>
+              <div><p>B+W digital mrc nano 52mm</p></div>
+              <div>30,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/camera6.jpg" /></div>
+              <div><p>B+W digital mrc nano 67mm 새상품</p></div>
+              <div>50,000원</div>
+            </div>
+          </div>
+
+          <div id="hotItem_rightBox10" class="hotItem_rightBox">
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/furniture1.jpg" /></div>
+              <div><p>필로덴드론멜라노크리섬</p></div>
+              <div>100,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/furniture2.jpg" /></div>
+              <div><p>필로덴드론 기가스</p></div>
+              <div>20,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/furniture3.jpg" /></div>
+              <div><p>안스리움크리스탈리넘실버</p></div>
+              <div>100,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/furniture4.jpg" /></div>
+              <div><p>안스리움바라오아넘</p></div>
+              <div>100,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/furniture5.jpg" /></div>
+              <div><p>필로덴드론엘초코레드</p></div>
+              <div>100,000원</div>
+            </div>
+            <div class="hotItemImg">
+              <div><img src="./hotitemimg/furniture6.jpg" /></div>
+              <div><p>무늬보스턴 고사리(필로덴드론 X)</p></div>
+              <div>19,500원</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 삽니다팝니다 게시판 구역 -->
+      <div id="boardAll">
+        <!-- 삽니다 -->
+        <div id="Board">
+          <div id="Board_title">
+            <div><h2>삽니다</h2></div>
+            <div>더보기+</div>
+          </div>
+          <div id="Board_contents">
+            <ul>
+              <li>
+                <div class="Board_proflie">
+                  <img src="./img/user.png" alt="" />
+                </div>
+                <div class="Board_text">
+                  <div>
+                    <p class="Board_user">쭌쭌</p>
+                    <p class="Board_time">4시간 전</p>
+                  </div>
+                  <div class="Board_comment">중고폰사요</div>
+                </div>
+              </li>
+              <li>
+                <div class="Board_proflie">
+                  <img src="./img/user2.png" alt="" />
+                </div>
+                <div class="Board_text">
+                  <div>
+                    <p class="Board_user">코코</p>
+                    <p class="Board_time">3시간 전</p>
+                  </div>
+                  <div class="Board_comment">컴퓨터 삽니다</div>
+                </div>
+              </li>
+              <li>
+                <div class="Board_proflie">
+                  <img src="./img/user3.png" alt="" />
+                </div>
+                <div class="Board_text">
+                  <div>
+                    <p class="Board_user">사기꾼</p>
+                    <p class="Board_time">3시간 전</p>
+                  </div>
+                  <div class="Board_comment">대포폰삼</div>
+                </div>
+              </li>
+              <li>
+                <div class="Board_proflie">
+                  <img src="./img/user4.png" alt="" />
+                </div>
+                <div class="Board_text">
+                  <div>
+                    <p class="Board_user">마약쟁이</p>
+                    <p class="Board_time">2시간 전</p>
+                  </div>
+                  <div class="Board_comment">코카인</div>
+                </div>
+              </li>
+              <li>
+                <div class="Board_proflie">
+                  <img src="./img/user5.png" alt="" />
+                </div>
+                <div class="Board_text">
+                  <div>
+                    <p class="Board_user">치킨도둑</p>
+                    <p class="Board_time">1시간 전</p>
+                  </div>
+                  <div class="Board_comment">황금올리브</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- 팝니다 -->
+        <div id="Board">
+          <div id="Board_title">
+            <div><h2>팝니다</h2></div>
+            <div>더보기+</div>
+          </div>
+          <div id="Board_contents">
+            <ul>
+              <li>
+                <div class="Board_proflie">
+                  <img src="./img/user.png" alt="" />
+                </div>
+                <div class="Board_text">
+                  <div>
+                    <p class="Board_user">우리동네방범대</p>
+                    <p class="Board_time">5시간 전</p>
+                  </div>
+                  <div class="Board_comment">3단봉팝니다</div>
+                </div>
+              </li>
+              <li>
+                <div class="Board_proflie">
+                  <img src="./img/user.png" alt="" />
+                </div>
+                <div class="Board_text">
+                  <div>
+                    <p class="Board_user">포켓몬마스터</p>
+                    <p class="Board_time">4시간 전</p>
+                  </div>
+                  <div class="Board_comment">포켓몬빵만 팔아요</div>
+                </div>
+              </li>
+              <li>
+                <div class="Board_proflie">
+                  <img src="./img/user.png" alt="" />
+                </div>
+                <div class="Board_text">
+                  <div>
+                    <p class="Board_user">카드왕김타짜</p>
+                    <p class="Board_time">3시간 전</p>
+                  </div>
+                  <div class="Board_comment">유희왕카드 팔아요</div>
+                </div>
+              </li>
+              <li>
+                <div class="Board_proflie">
+                  <img src="./img/user.png" alt="" />
+                </div>
+                <div class="Board_text">
+                  <div>
+                    <p class="Board_user">망겜메이플</p>
+                    <p class="Board_time">1시간 전</p>
+                  </div>
+                  <div class="Board_comment">템 다 팜</div>
+                </div>
+              </li>
+              <li>
+                <div class="Board_proflie">
+                  <img src="./img/user.png" alt="" />
+                </div>
+                <div class="Board_text">
+                  <div>
+                    <p class="Board_user">김복순</p>
+                    <p class="Board_time">24분 전</p>
+                  </div>
+                  <div class="Board_comment">복순이~</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--사이드 메뉴-->
+    <div id="sideBar">
+      <ul>
+        <li>
+          <p>출석체크 <span>🎁</span></p>
+        </li>
+        <li>
+          <p>채팅하기 <span>💬</span></p>
+        </li>
+        <li>
+          <p>상품등록 <span>📦</span></p>
+        </li>
+        <li>
+          <p>거래내역 <span>🧾</span></p>
+        </li>
+        <li>
+          <p id="recentP">최근 본 물품</p>
+          <div id="recentItems">
+            <div class="recentItemsImg"><img src="./hotitemimg/elec2.jpg" alt="" /></div>
+            <div class="recentItemsImg"><img src="./hotitemimg/elec6.jpg" alt="" /></div>
+            <div class="recentItemsImg"><img src="./hotitemimg/mobile5.jpg" alt="" /></div>
+            <div class="recentItemsImg"><img src="./hotitemimg/pc3.jpg" alt="" /></div>
+          </div>
+        </li>
+        <li>
+          <p id="adP">광고</p>
+          <div id="ad"><img src="./img/PC.png"></div>
+        </li>
+      </ul>
+      <div id="topbottomBtn">
+        <a href="#header"><div id="topBtn"></div></a>
+        <a href="#footer"><div id="bottomBtn"></div></a>
+      </div>
+    </div>
+    <!--푸터-->
+    <footer id="footer">
+      <div id="business_info">
+        (주)중고나라 | 대표자 : 홍준<br />
+        사업자 등록번호 : 215-87-87482 <br />
+        통신판매신고번호 : 제2019-서울서초-0097호 <br />
+        주소 : 서울특별시 서초구 서초대로 301 동익성봉빌딩 7층 <br />
+        대표번호 : 070-5066-2278 <br />
+        메일 : joongna@joonggonara.co.kr <br />
+        호스팅제공자 : 아마존웹서비스
+      </div>
+      <div id="company_info">
+        <p>회사소개</p>
+        <p>이용약관</p>
+        <p>개인정보처리방침</p>
+        <p>분쟁처리절차</p>
+        <p id="border_none">사업자정보확인</p>
+      </div>
+      <div id="warning">
+        “중고나라” 상점의 판매상품을 제외한 모든 상품들에 대하여 (주)중고나라는
+        통신판매중개자로서 거래 당사자가 아니며 판매 회원과 구매 회원 간의
+        상품거래 정보 및 거래에 관여하지 않고 어떠한 의무와 책임도 부담하지
+        않습니다.
+      </div>
+    </footer>
+  </body>
+  <script src="./js/main.js"></script>
+</html>
